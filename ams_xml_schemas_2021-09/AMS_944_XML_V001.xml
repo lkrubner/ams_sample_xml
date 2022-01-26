@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document>
+	<DocumentType>944</DocumentType>
+	<Version>V001</Version>
+	<ClientCode>WI</ClientCode>
+	<DataDate>2018-01-01</DataDate>
+	<DataTime>09:30:00-08:00</DataTime>
+	<InboundPO>
+		<InboundPOHeader>
+			<PurchaseOrderNumber>TestPoNumber</PurchaseOrderNumber>
+			<Location>WIT2</Location>
+			<ReceiptDate>2018-02-01</ReceiptDate>
+			<POType>Receipt</POType>
+			<ContainerNumber>TestContainerNumber</ContainerNumber>
+			<TransactionNumber>12321321234</TransactionNumber>
+		</InboundPOHeader>
+		<References>
+			<Reference>
+				<ReferenceQualifier>String</ReferenceQualifier>
+				<ReferenceText>String</ReferenceText>
+			</Reference>
+		</References>
+		<LineItems>
+			<LineItem>
+				<ItemNumber>6789054321</ItemNumber>
+				<UPC>008976543567</UPC>
+				<QTYReceived>10</QTYReceived>
+				<QTYUOM>EA</QTYUOM>
+				<LineID>01</LineID>
+			</LineItem>
+			<LineItem>
+				<ItemNumber>6789054322</ItemNumber>
+				<UPC>008976543568</UPC>
+				<QTYReceived>101</QTYReceived>
+				<QTYUOM>EA</QTYUOM>
+				<LineID>01</LineID>
+			</LineItem>
+		</LineItems>
+	</InboundPO>
+</Document>
